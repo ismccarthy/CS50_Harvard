@@ -1,1 +1,1 @@
-Trading analysis program based on idea from "A Man For All Markets" ~ Ed Thorp
+Online Edx course fom Harvard
