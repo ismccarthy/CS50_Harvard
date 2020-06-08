@@ -1,0 +1,1 @@
+Trading Analysis Program based on idea from "A Man For All Markets" ~ Ed Thorp
