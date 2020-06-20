@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1>{{ headline }}</h1>
+
+    {% if new_year %}
+        <h1>Yay! It's Sunday</h1>
+    {% else %}
+        <h1>Today is not Sunday</h1>
+    {% end if %}
+
+
+<h1 style="text-align:center;">CS50 - Harvard Web/Python Course</h1>
+<h1>Next Heading</h1>
+<p>
+<ol>
+    <li>CSS enables more efficient formatting of an html file</li>
+    <li>Bootstrap is a CSS library that can be imported (from a standard webpage) into CSS - pre-written style code </li>
+    <li>.scss files enables styling to use true classes (%), class inheritance (.), nesting and variables</li>
+    <li>Sass compiles .scss files to .css files (browsers can't read .scss files)</li>
+</ol>
+
+
+</p>
+
+
+<!-- span is just a sub-section, piece of text or character,
+class will be formatted with .class in stylesheet -->
+<p>Paragraph <span class="number">1</span></p>
+<p>Paragraph <span class="number2">2</span</p>
+
+<!-- div is just a section of the page,
+div will be formatted with # in stylesheet -->
+<div id="top">
+    Top Div
+</div>
+
+<div id="middle">
+    Middle Div
+</div>
+
+<div id="bottom">
+    Another Div
+</div>
+
+<ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+</ul>
+
+<ol>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+</ol>
+
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+    </tr>
+    <tr>
+        <td>Ian</td>
+        <td>Kevin</td>
+        <td>Anja</td>
+    </tr>
+</table>
+
+<br>
+
+<form>
+    <input type="text" placeholder="Enter Name" name="name">
+    <button>Submit!</button>
+</form>
+
+</body>
+</html>
